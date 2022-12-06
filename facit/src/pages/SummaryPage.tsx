@@ -23,8 +23,8 @@ import SubHeader, {
 } from '../layout/SubHeader/SubHeader';
 import Page from '../layout/Page/Page';
 import Button from '../components/bootstrap/Button';
-// import Badge from '../components/bootstrap/Badge';
-// import Card, { CardBody } from '../components/bootstrap/Card';
+import Badge from '../components/bootstrap/Badge';
+import Card, { CardBody } from '../components/bootstrap/Card';
 import Input from '../components/bootstrap/forms/Input';
 import FormGroup from '../components/bootstrap/forms/FormGroup';
 
@@ -296,17 +296,17 @@ const SummaryPage = () => {
 					<SubheaderSeparator />
 				</SubHeaderLeft>
 				<SubHeaderRight>
-					{/* <Button color='success' isLight icon='ShoppingCart' tag='a' href='/'>
+					<Button color='success' isLight icon='ShoppingCart' tag='a' href='/'>
 						Buy on Envato
-					</Button> */}
-					{/* <Button
+					</Button>
+					<Button
 						color='info'
 						isLight
 						tag='a'
 						href='mailto:info@omtanke.studio'
 						icon='MarkunreadMailbox'>
 						Create Group
-					</Button> */}
+					</Button>
 				</SubHeaderRight>
 			</SubHeader>
 			<Page>
@@ -569,7 +569,7 @@ const SummaryPage = () => {
 					</div>
 				</div>
 
-				{/* <div id='bootstrap' className='row h-fluid-min-lg-100 scroll-margin'>
+				<div id='bootstrap' className='row h-fluid-min-lg-100 scroll-margin'>
 					<div className='col-12'>
 						<Card stretch>
 							<CardBody className='h-100'>
@@ -733,7 +733,7 @@ const SummaryPage = () => {
 							</CardBody>
 						</Card>
 					</div>
-				</div> */}
+				</div>
 			</Page>
 		</PageWrapper>
 	);
