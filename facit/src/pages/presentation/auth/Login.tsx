@@ -178,7 +178,6 @@ const Login: FC<ILoginProps> = ({ isSignUp }) => {
 												'text-light': darkModeStatus,
 											},
 										)}>
-										<Logo width={200} />
 									</Link>
 								</div>
 								<div

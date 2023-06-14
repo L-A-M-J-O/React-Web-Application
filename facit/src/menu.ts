@@ -31,33 +31,25 @@ export const homeMenu = {
 };
 
 export const dashboardMenu = {
-	summary: {
-		id: 'summary',
-		text: 'Create Group',
-		path: 'summary',
-		icon: 'sticky_note_2',
-		subMenu: null,
-	},
-	dashboard: {
+	dashboard: {	
 		id: 'dashboard',
-		text: 'See list of groups',
+		text: 'Home',
 		path: '/',
 		icon: 'Dashboard',
 		subMenu: null,
 	},
-
+	crmDashboard: {
+		id: 'crmDashboard',
+		text: 'CRM Dashboard',
+		path: 'crm/dashboard',
+		icon: 'RecentActors',
+	},
 	// dashboardBooking: {
-	// 	// id: 'dashboard-booking',
-	// 	// text: 'Dashboard Booking',
-	// 	// path: 'dashboard-booking',
-	// 	// icon: 'emoji_transportation',
-	// 	// subMenu: null,
-	// },
-	// crmDashboard: {
-	// 	// id: 'crmDashboard',
-	// 	// text: 'CRM Dashboard',
-	// 	// path: 'crm/dashboard',
-	// 	// icon: 'RecentActors',
+	// 	id: 'dashboard-booking',
+	// 	text: 'Dashboard Booking',
+	// 	path: 'dashboard-booking',
+	// 	icon: 'emoji_transportation',
+	// 	subMenu: null,
 	// },
 };
 

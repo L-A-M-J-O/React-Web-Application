@@ -295,7 +295,7 @@ const SummaryPage = () => {
 					<span className='fw-bold'>Administrador</span>
 					<SubheaderSeparator />
 				</SubHeaderLeft>
-				<SubHeaderRight>
+				{/* <SubHeaderRight>
 					<Button color='success' isLight icon='ShoppingCart' tag='a' href='/'>
 						Buy on Envato
 					</Button>
@@ -307,7 +307,7 @@ const SummaryPage = () => {
 						icon='MarkunreadMailbox'>
 						Create Group
 					</Button>
-				</SubHeaderRight>
+				</SubHeaderRight> */}
 			</SubHeader>
 			<Page>
 				<div id='intro' className='scroll-margin'>
@@ -566,172 +566,6 @@ const SummaryPage = () => {
 							}}
 							className={classNames(classes.item, classes.item14)}
 						/>
-					</div>
-				</div>
-
-				<div id='bootstrap' className='row h-fluid-min-lg-100 scroll-margin'>
-					<div className='col-12'>
-						<Card stretch>
-							<CardBody className='h-100'>
-								<div className='row d-flex align-items-center h-100'>
-									<div className={classNames('col-xl-6', classes.logoWrapper)}>
-										<div className={classes.bootstrapLogo} />
-									</div>
-									<div className='col-xl-6'>
-										<div className='display-1 fw-bold mb-4 position-relative'>
-											Bootstrap <span className='text-primary'>5</span>
-											<span className='display-6 position-absolute top-0 translate-middle-y'>
-												<Badge color='success' shadow='default'>
-													NEW
-												</Badge>
-											</span>
-										</div>
-										<p className='fs-4 mb-5'>
-											It is compatible with the design with{' '}
-											<strong>Reactstrap</strong> logic and new components
-											have been created with <em>Bootstrap 5</em> and you can
-											make changes in them. The usage of all components in the{' '}
-											<strong>storybook</strong> are available.
-										</p>
-										<div className='row g-4'>
-											<div className='col-auto'>
-												<Button
-													color='primary'
-													icon='CustomReact'
-													isLight
-													size='lg'
-													tag='a'
-													href='../components/card'>
-													Components
-												</Button>
-											</div>
-											<div className='col-auto'>
-												<Button
-													color='storybook'
-													icon='CustomStorybook'
-													isLight
-													size='lg'
-													tag='a'
-													target='_blank'
-													href={`${process.env.REACT_APP_STORYBOOK_URL}`}>
-													Storybook
-												</Button>
-											</div>
-										</div>
-									</div>
-								</div>
-							</CardBody>
-						</Card>
-					</div>
-				</div>
-				<div id='storybook' className='row h-fluid-min-lg-100 scroll-margin'>
-					<div className='col-12'>
-						<Card stretch>
-							<CardBody className='h-100'>
-								<div className='row d-flex align-items-center h-100'>
-									<div className={classNames('col-xl-6', classes.logoWrapper)}>
-										<div className={classes.storybookLogo} />
-									</div>
-									<div className='col-xl-6'>
-										<div className='display-1 fw-bold mb-4'>Storybook</div>
-										<p className='fs-4 mb-5'>
-											You can share how the components are used and your
-											customized stories with your teammates. You can also
-											copy the jsx and html outputs and paste them directly
-											into your project.
-										</p>
-										<Button
-											color='storybook'
-											icon='CustomStorybook'
-											isLight
-											size='lg'
-											tag='a'
-											target='_blank'
-											href={`${process.env.REACT_APP_STORYBOOK_URL}`}>
-											Storybook
-										</Button>
-									</div>
-								</div>
-							</CardBody>
-						</Card>
-					</div>
-				</div>
-				<div id='formik' className='row h-fluid-min-lg-100 scroll-margin'>
-					<div className='col-12'>
-						<Card stretch>
-							<CardBody className='h-100'>
-								<div className='row d-flex align-items-center h-100'>
-									<div className={classNames('col-xl-6', classes.logoWrapper)}>
-										<div className={classes.formikLogo} />
-									</div>
-									<div className='col-xl-6'>
-										<div className='display-1 fw-bold mb-4'>Formik</div>
-										<p className='fs-2 mb-3'>
-											Build forms in React, without the tears 🥳
-										</p>
-										<p className='fs-4 mb-5'>
-											Yes! You will have a lot of fun while dealing with
-											forms, you will get the results you want without
-											contradicting the design of the project. In fact, we
-											have another good news, validation is also included.
-										</p>
-										<div className='row g-4'>
-											<div className='col-auto'>
-												<Button
-													color='primary'
-													icon='CustomReact'
-													isLight
-													size='lg'
-													tag='a'
-													href='../forms/form-group'>
-													Form Components
-												</Button>
-											</div>
-											<div className='col-auto'>
-												<Button
-													color='danger'
-													icon='VerifiedUser'
-													isLight
-													size='lg'
-													tag='a'
-													href='../forms/validation'>
-													Validation
-												</Button>
-											</div>
-										</div>
-									</div>
-								</div>
-							</CardBody>
-						</Card>
-					</div>
-				</div>
-				<div id='apex' className='row h-fluid-min-lg-100 scroll-margin'>
-					<div className='col-12'>
-						<Card stretch>
-							<CardBody className='h-100'>
-								<div className='row d-flex align-items-center h-100'>
-									<div className={classNames('col-xl-6', classes.logoWrapper)}>
-										<div className={classes.apexLogo} />
-									</div>
-									<div className='col-xl-6'>
-										<div className='display-1 fw-bold mb-4'>Apex Chart</div>
-										<p className='fs-4 mb-5'>
-											You can easily include 16 different types of graphics in
-											your project and have harmonious designs.
-										</p>
-										<Button
-											color='primary'
-											icon='ShowChart'
-											isLight
-											size='lg'
-											tag='a'
-											href='../charts/general-usage'>
-											Charts
-										</Button>
-									</div>
-								</div>
-							</CardBody>
-						</Card>
 					</div>
 				</div>
 			</Page>

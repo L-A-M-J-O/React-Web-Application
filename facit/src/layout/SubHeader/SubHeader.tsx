@@ -67,7 +67,7 @@ const SubHeader: FC<ISubHeaderProps> = ({ children, className }) => {
 
 	return (
 		<div ref={ref} className={classNames('subheader', 'row', className)}>
-			{children}
+			{/* {children} */}
 		</div>
 	);
 };

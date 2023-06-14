@@ -12,7 +12,6 @@ const Footer: FC<IFooterProps> = ({ children }) => {
 
 	return (
 		<footer ref={ref} className='footer'>
-			{children}
 		</footer>
 	);
 };

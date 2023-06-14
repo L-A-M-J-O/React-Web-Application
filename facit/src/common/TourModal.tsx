@@ -51,22 +51,6 @@ const TourModal = () => {
 					</div>
 				</div>
 			</ModalBody>
-			<ModalFooter>
-				<Button icon='Close' color='danger' isLink onClick={() => setIsOpenModal(false)}>
-					No
-				</Button>
-				<Button
-					icon='DoneOutline'
-					color='success'
-					isLight
-					onClick={() => {
-						setIsOpenModal(false);
-						navigate('/');
-						setTimeout(() => setIsOpen(true), 1000);
-					}}>
-					Yes
-				</Button>
-			</ModalFooter>
 		</Modal>
 	);
 };

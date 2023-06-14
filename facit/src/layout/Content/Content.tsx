@@ -7,9 +7,9 @@ import ContentRoutes from './ContentRoutes';
 
 const LOADING = (
 	<PageWrapper>
-		<SubHeader>
+		{/* <SubHeader> */}
 			<div />
-		</SubHeader>
+		{/* </SubHeader> */}
 		<Page>
 			<div className='row h-100'>
 				<div className='col-lg-6'>

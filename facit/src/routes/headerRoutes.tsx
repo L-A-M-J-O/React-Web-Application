@@ -110,11 +110,11 @@ const headers = [
 		element: <ProfilePageHeader />,
 		exact: true,
 	},
-	{
-		path: dashboardMenu.summary.path,
-		element: <SummaryHeader />,
-		exact: true,
-	},
+	// {
+	// 	path: dashboardMenu.summary.path,
+	// 	element: <SummaryHeader />,
+	// 	exact: true,
+	// },
 	{
 		path: demoPages.gridPages.subMenu.gridBoxed.path,
 		element: <ProductsHeader />,

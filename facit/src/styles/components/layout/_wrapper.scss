@@ -45,6 +45,9 @@
 			padding-left: 0;
 		}
 	}
+	.container-fluid {
+		width: 90%;
+	}
 
 	// Aside is fly
 	@at-root .modern-design .aside ~ & {

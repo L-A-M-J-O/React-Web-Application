@@ -186,11 +186,11 @@ const presentation = [
 		element: <LANDING.DASHBOARD_BOOKING />,
 		exact: true,
 	},
-	{
-		path: dashboardMenu.summary.path,
-		element: <LANDING.SUMMARY />,
-		exact: true,
-	},
+	// {
+	// 	path: dashboardMenu.summary.path,
+	// 	element: <LANDING.SUMMARY />,
+	// 	exact: true,
+	// },
 
 	/** ************************************************** */
 
